@@ -1,12 +1,23 @@
 <!doctype html>
-<html lang="Default">
+<html lang="fr-en">
+	<!--Langues du site a ajouter-->
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="seo, google, site web, site internet, agence design paris, agence design, agence design,agence design,agence design,agence design,agence design,agence design,agence design,agence design">
-    <meta name="description" content="">
+	<!--Balise qui n'a plus besoin d'être utilisable-, dévaluation par google de l'outil-->
+	<meta name="keywords" content="seo, google, site web, site internet, agence design Lyon, agence design, agence design,agence design,agence design,agence design,agence design,agence design,agence design,agence design">
+    <!--Insertion de mots-clés abusif -->
+	<meta name="description" content="La chouette agence est une entreprise de web design basée à lyon , qui propose un large service auprès des entreprises pour devenir plus attractive et plus visible">
+	<!--Ajout de la description pour le seo du site-->
+	<!--Pour guider le moteur de recherche-->
+	<meta name="robots" content="index,follow">
+	<!--Pour la version mobile adaptable-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
-    
+	<!--Pour le Seo du site , la géolocalisation et L'accaessibilité pour les visiteurs étrangers-->
+	<link rel="alternate" hreflang="en" href="https://le site"/>
+	<link rel="alternate" hreflang="x-default" href="http://lesite"/>
+	
+    <!--JS ET CSS NON MINIFIER -->
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
@@ -18,8 +29,8 @@
 	<script src="./js/blocs.js"></script>
 	<script src="./js/jquery.touchSwipe.js" defer></script>
 	<script src="./js/gmaps.js"></script>
-
-    <title>.</title>
+	<!--Ajout du titre title-->
+    <title>La chouette agence- Page d'accueil</title>
 
     
 <!-- Analytics -->
@@ -32,14 +43,18 @@
 <div class="page-container">
     
 <!-- bloc-0 -->
+<header>
+	<!--Balise sémantique-->
+	<link rel="canonical" href="https://github.com/">
+	<!--Balise canonique pour eviter la duplication de l'url-->
 <div class="bloc bgc-white l-bloc " id="bloc-0">
 	<div class="container bloc-sm">
 
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
-				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="paris web design logo agence web meilleure agence" height="40" /></a>
-				<div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
+				<!--Supression de la div car triche pour seo et modification alt lieu -->
+				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="lyon web design logo agence web meilleure agence" height="40" /></a>
+				<!--Supression de la div car triche pour seo -->
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -49,10 +64,9 @@
 					<li>
 						<a href="index.html">Accueil</a>
 					</li>
+					<!--Suppression de li en plus-->
 					<li>
-					</li>
-					<li>
-						<a href="page2.html">page2 &gt;</a>
+						<a href="page2.html">Formulaire de Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -62,14 +76,17 @@
 <!-- bloc-0 END -->
 
 <!-- bloc-1-presentation -->
+
 <div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax" id="bloc-1-hero">
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace">
 			<div class="col-sm-12">
-				<img src="img/logo.png" class="center-block image-resize-mode" width="100" alt="La chouette agence, agence web paris, création logo paris" />
+				<!--Modification lieu sur alt-->
+				<img src="img/logo.png" class="center-block image-resize-mode" width="100" alt="La chouette agence, agence web lyon, création logo lyon" />
 				<h1 class="text-center hero-bloc-text tc-white ">
-					La chouette agence.
+					La chouette agence
 				</h1>
+				<!--Ponctuation enlever sur le titre principal-->
 				<div class="text-center">
 					<a href="page2.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
 				</div>
@@ -78,13 +95,17 @@
 	</div>
 </div>
 <!-- bloc-1-presentation END -->
+</header>
 
+<section>
 <!-- bloc-2-services -->
 <div class="bloc bgc-white l-bloc" id="bloc-2-services">
 	<div class="container bloc-md">
 		<div class="row">
 			<div class="col-sm-12 text-center">
-				<img alt="agence web, agence web paris, web design paris, stratégie web" src="img/title.png" />
+				<!--Modification du lieu Lyon-->
+				<!--Suppression image texte, remplacé par un texte et une police qui correspond a l'image-->
+				<img alt="agence web, agence web lyon, web design lyon, stratégie web" src="img/title.png" />
 			</div>
 		</div>
 		<div class="row voffset-lg med-width-whitespace">
@@ -124,15 +145,19 @@
 		</div>
 		<div class="row voffset-lg voffset">
 			<div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
-				<img alt="agence web, agence web paris, web design paris, stratégie web" src="img/citation.png" />
+				<!--Modification du lieu Lyon-->
+				<!--Suppression image texte, remplacé par un texte et une police qui correspond a l'image-->
+				<img alt="agence web, agence web lyon, web design lyon, stratégie web" src="img/citation.png" />
 
 			</div>
 		</div>
 	</div>
 </div>
 <!-- bloc-2-services END -->
-
+</section>
 <!-- bloc-3-what-i-do -->
+<aside>
+<!--Changer le contraste de couleur pour accessibilité , revoir le design-->
 <div class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc bloc-bg-texture texture-paper b-parallax" id="bloc-3-what-i-do">
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace black-background">
@@ -147,19 +172,23 @@
 		</div>
 	</div>
 </div>
+</aside>
 <!-- bloc-3-what-i-do END -->
-
+<!--Ajout des balises sémantiques-->
+<section>
 <!-- bloc-4-portfolio -->
 <div class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12 text-center">
-				<img alt="agence web, agence web paris, web design paris, stratégie web" src="img/title2.png" />
+				<!--Modification du lieu lyon-->
+				<img alt="agence web, agence web lyon, web design lyon, stratégie web" src="img/title2.png" />
 			</div>
 		</div>
 		<div class="row tight-width-whitespace portfolio-row">
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/1.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/1.jpg" alt="paris web design logo agence web meilleure agence et refonte site web journal" class="img-responsive portfolio-thumb" /></a>
+				<!--Modification du alt-->
+				<a href="#" data-lightbox="img/1.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/1.jpg" alt="lyon web design logo agence web meilleure agence et refonte site web journal" class="img-responsive portfolio-thumb" /></a>
 				<h3 class="mg-md text-center">
 					Refonte d'un site web pour un journal local
 				</h3>
@@ -168,7 +197,8 @@
 				</p>
 			</div>
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/2.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img src="img/2.jpg" class="img-responsive portfolio-thumb" alt="paris web design logo agence web meilleure agence, Création d'un site web pour photographes" /></a>
+				<!--Modification du alt-->
+				<a href="#" data-lightbox="img/2.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img src="img/2.jpg" class="img-responsive portfolio-thumb" alt="lyon web design logo agence web meilleure agence, Création d'un site web pour photographes" /></a>
 				<h3 class="mg-md text-center">
 					Création d'un site web pour photographes
 				</h3>
@@ -179,7 +209,8 @@
 		</div>
 		<div class="row tight-width-whitespace portfolio-row">
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/3.bmp" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/3.bmp" class="img-responsive portfolio-thumb" alt="paris web design logo agence web meilleure agence, Création d'un site web pour voyageur"/></a>
+				<!--Modification du alt-->
+				<a href="#" data-lightbox="img/3.bmp" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/3.bmp" class="img-responsive portfolio-thumb" alt="lyon web design logo agence web meilleure agence, Création d'un site web pour voyageur"/></a>
 				<h3 class="mg-md text-center">
 					Création d'un site internet pour un voyageur
 				</h3>
@@ -188,7 +219,8 @@
 				</p>
 			</div>
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/4.bmp" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="img/4.bmp" class="img-responsive portfolio-thumb" alt="paris web design logo agence web meilleure agence, Création d'un site web pour agence de mariage" /></a>
+				<!--Modification du alt-->
+				<a href="#" data-lightbox="img/4.bmp" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="img/4.bmp" class="img-responsive portfolio-thumb" alt="lyon web design logo agence web meilleure agence, Création d'un site web pour agence de mariage" /></a>
 				<h3 class="mg-md text-center">
 					Conception d'un site pour une agence de mariage
 				</h3>
@@ -199,23 +231,30 @@
 		</div>
 	</div>
 </div>
+</section>
 <!-- bloc-4-portfolio END -->
-
+<!--Ajout Balise sémantiques Aside-->
+<aside>
 <!-- bloc-5-cta -->
 <div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
+	<!--Problème de contraste de la photo-->
 	<div class="container bloc-lg">
 		<div class="row">
+			<!--Changer la couleur du texte-->
 			<h2 class="mg-md text-center tc-white">
 				Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !
 			</h2>
 			<div class="col-sm-12 text-center">
-				<a href="page2.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contact</a>
+				<!--Sorti pour lecteur ecran-->
+					<a href="page2.html" aria-label="accéder au formulaire de contact" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contact</a>
 			</div>
 		</div>
 	</div>
 </div>
+</aside>
 <!-- bloc-5-cta END -->
-
+<!--Ajout balise sémantiques Footer-->
+<footer>
 <!-- Footer - bloc-8 -->
 <div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 	<div class="container bloc-sm">
@@ -245,6 +284,7 @@
 							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
+					<!--A enlever car devaluation du site , triche pour seo-->
 					<div class="keywords" style="color:#F3976C;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
 				</div>
 				<div class="row">
@@ -290,6 +330,7 @@
 		</div>
 	</div>
 </div>
+</footer>
 <!-- Footer - bloc-8 END -->
 
 </div>
