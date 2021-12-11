@@ -692,7 +692,9 @@ a {
 p {
     font-size: 1.1em;
 }
-
+.text-center{
+    margin:0 0 40px;
+}
 .tight-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
@@ -742,7 +744,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 1.2em;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -772,7 +774,8 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
+    padding: 0px 50px
 }
 
 .portfolio-row {
@@ -851,6 +854,8 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere-min.jpg");
+    width: 100%;
+    height: 350px;
 }
 /*--Changement de l'image en jpeg--*/
 .bg-presentation {
@@ -878,17 +883,27 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
+    .bloc-lg{
+        padding: 40px;
+    }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
+    .bloc-lg{
+        padding: 40px;
+    }
+    
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
+    }
+    .bloc-lg{
+        padding: 40px;
     }
 }
 
@@ -919,6 +934,9 @@ h4 {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
     }
+    .bloc-lg{
+        padding: 40px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -934,8 +952,8 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
+        padding-left: 0px!important;
+        padding-right: 0px!important;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -1057,6 +1075,46 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .col-sm-6{
+        width: 60%;
+        margin: 0px 130px;
+    }
+    .mg-md{
+        margin:15px;
+    }
+    .portfolio-row{
+        margin:0px;
+    }
+    h2{
+        font-size:1.4em;
+    }
+    .titre-_h2_realisation{
+        font-size:1.8em;
+        margin:0px;
+    }
+    .row{
+        display:flex;
+        flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    }
+    h3{
+        font-size:1.1em;
+    }
+    p{
+        font-size:0.92em;
+    }
+    .bloc-lg{
+        padding: 90px 0;
+    }
+    .social{
+        display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
     }
 }
 
