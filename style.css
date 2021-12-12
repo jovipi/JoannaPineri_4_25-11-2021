@@ -727,7 +727,6 @@ h2 {
 .italic-h2{
     font-size: 23px;
     line-height: 1.4em;
-    margin: 0px 40px 0px;
     font-family: 'et-line';
     font-style: italic;
 }
@@ -891,7 +890,6 @@ h4 {
     .italic-h2 {
         font-size: 23px;
         line-height: 1.4em;
-        margin: 0 40px 0;
         font-family: 'et-line';
         font-style: italic;
     }
@@ -906,7 +904,6 @@ h4 {
     .italic-h2 {
         font-size: 23px;
         line-height: 1.4em;
-        margin: 0 40px 0;
         font-family: 'et-line';
         font-style: italic;
     }
