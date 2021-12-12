@@ -888,6 +888,13 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
+    .italic-h2 {
+        font-size: 23px;
+        line-height: 1.4em;
+        margin: 0 40px 0;
+        font-family: 'et-line';
+        font-style: italic;
+    }
     
     
 }
@@ -895,6 +902,13 @@ h4 {
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
+    }
+    .italic-h2 {
+        font-size: 23px;
+        line-height: 1.4em;
+        margin: 0 40px 0;
+        font-family: 'et-line';
+        font-style: italic;
     }
     
 }
