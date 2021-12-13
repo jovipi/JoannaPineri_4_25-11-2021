@@ -89,12 +89,8 @@ a:hover {
     left: 0;
     right: 0;
 }
-/*--Compression image */
-.texture-paper::before {
-    background-size: 280px 280px;
-    background: url(img/texture-paper-min.png);
-    opacity: 0.5;
-}
+/*--Suppression image texture*/
+
 
 .b-parallax {
     background-attachment: fixed;
@@ -785,7 +781,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(7,16,16, 0.8);
+background-color: rgb(51, 51, 51);
     padding: 40px 40px 40px 40px;
     border-radius:50px;
 }
@@ -858,6 +854,82 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation-compress.jpeg");
 }
+/*--------------------------------------Page2--------------------------------------------------*/
+.bloc-lg-page2{
+    padding: 20px;
+}
+.color-texte{
+    color:#FE9D68!important;
+}
+.bgc-black{
+    color:rgb(51, 51, 51)!important;
+}
+.design_page2{
+    border: 10px solid #FE9D68;
+    border-radius: 150px;
+    background-color:rgb(51, 51, 51);
+    padding:20px;
+}
+.contact-center{
+        width: 100%;
+        margin: 20px 20px 0px;
+        padding: 0px 0px 0px;
+        margin: 20px 20px;
+}
+.p-text {
+    font-size: 1.2em;
+    margin: 40px 40px 0px 40px;
+    color:rgb(51, 51, 51);
+}
+.hero-bloc-text {
+    font-size: 2em;
+}
+.bloc .container {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 50px;
+}
+@media(min-width:320px) and (max-width:766px){
+    .hero-bloc-text {
+        font-size: 2em;
+    }
+    .design_page2 {
+        border: 10px solid #fe9d68;
+        border-radius: 150px;
+        background-color: #333;
+        padding: 20px 70px;
+    }
+}
+@media (max-width: 767px){
+ form {
+    padding: 20px;
+ }
+}
+
+@media(min-width:320px) and (max-width:459px){
+    .hero-bloc-text {
+        font-size: 2em;
+    }
+    .p-text {
+            font-size: 1.050em;
+            margin: 40px 40px 20PX 40px;
+            color: #333;
+        }
+    .design_page2{
+        border: 10px solid #FE9D68;
+        border-radius: 150px;
+        background-color:rgb(51, 51, 51);
+        padding:20px;
+    }
+    .bloc-lg-formulaire{
+        padding: 10px 0 0 0;
+}
+    .col-sm-12_page2{
+        padding:20px;
+    }
+
+}
+
 
 @media (max-width: 1024px) {
     .bloc {
@@ -1061,9 +1133,7 @@ h4 {
     .voffset-lg {
         margin-top: 30px;
     }
-    form {
-        padding: 5px;
-    }
+    
     .close-lightbox {
         display: inline-block;
     }
