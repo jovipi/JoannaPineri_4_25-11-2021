@@ -88,6 +88,8 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
+    background-color: white;
+    opacity: 0.5;
 }
 /*--Suppression image texture*/
 
@@ -701,7 +703,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #FE9D68!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -720,11 +722,21 @@ h2 {
     margin: 0px 10px 20px;
     font-family: 'et-line';
 }
+.titre2_page2{
+    margin: 20px 0 10px 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+
 .italic-h2{
     font-size: 23px;
-    line-height: 1.4em;
-    font-family: 'et-line';
-    font-style: italic;
+    line-height:1.4em;
+    font-family:'et-line';
+    font-style:italic;
 }
 .auteur_parole{
     font-size:1.005em;
@@ -785,6 +797,9 @@ background-color: rgb(51, 51, 51);
     padding: 40px 40px 40px 40px;
     border-radius:50px;
 }
+.black-background-footer{
+    background-color: rgb(51, 51, 51);
+}
 
 .bold-link {
     font-weight: 900;
@@ -800,12 +815,16 @@ background-color: rgb(51, 51, 51);
 
 
 .tc-white {
-    color: #FE9D68!important;
+    color: #FFF!important;
+    font-size: 1.450em;
 }
 
 .btn-atomic-tangerine {
     background: #FE9D68;
     color: #FFFFFF!important;
+}
+.btn-black{
+    background: rgb(51, 51, 51);
 }
 
 .btn-atomic-tangerine:hover {
@@ -899,11 +918,34 @@ background-color: rgb(51, 51, 51);
         background-color: #333;
         padding: 20px 70px;
     }
+    
+}
+@media(min-width:320px) and (max-width:766px){
+    .nav>li>a{
+        padding: 8px 80px 8px 10px;
+    
+    }
+}
+@media(min-width:767px) and (max-width:1440px){
+    .nav>li>a{
+        padding: 8px;
+    }
+
 }
 @media (max-width: 767px){
  form {
     padding: 20px;
  }
+}
+@media(min-width:429px) and (max-width:452px){
+    .navbar-toggle{
+        bottom:50px;
+    }
+}
+@media(min-width:428px) and (max-width:430px){
+    a, button{
+        transition:none;
+    }
 }
 
 @media(min-width:320px) and (max-width:459px){
@@ -1203,12 +1245,12 @@ background-color: rgb(51, 51, 51);
 }
 @media (min-width: 429px){
     .navbar-brand{
-        padding: 3px 140px 3px 0px;
+        padding: 3px 180px 3px 0;
     }
 }
 @media (min-width: 429px){
     .navbar-brand{
-        padding: 3px 100px 3px 0px;
+        padding: 3px 180px 3px 0px;
     }
 }
 @media (max-width:414px) and (min-width: 320px){
